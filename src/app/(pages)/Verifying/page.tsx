@@ -149,22 +149,27 @@ export default function Page() {
                   onChange={(e) => setType(e.target.value)}
                   value={type}
                   style={{
-                    backgroundColor: 'rgba(34, 34, 84, 0.32)',
-                    border: '2px solid rgb(187, 207, 255)',
+                    backgroundColor: '#000000', // Black menu
+                    border: '2px solid #ffffff',
                     width: '70%',
-                    height: '40px',
-                    color: 'white',
+                    height: '50px',
+                    color: '#ffffff', // Bold white content
+                    fontWeight: 'bold',
                     borderRadius: '2rem',
                     margin: '3%',
-                    boxShadow: '0 0 10px 2px rgba(0, 0, 255, 0.7)', // Add this line for glowing effect
-                    transition: 'box-shadow 0.3s ease-in-out',
-                    padding:"10px 10px 10px 10px"
+                    boxShadow: '0 0 10px 2px rgba(255, 255, 255, 0.2)',
+                    transition: 'box-shadow 0.3s ease-in-out, background-color 0.3s',
+                    padding: '10px',
+                    fontSize: '16px',
+                    outline: 'none',
+                    appearance: 'none',
+                    cursor: 'pointer',
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.boxShadow = '0 0 15px 2px rgba(0, 0, 255, 1)';
+                    e.currentTarget.style.boxShadow = '0 0 15px 3px rgba(255, 255, 255, 0.4)';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.boxShadow = '0 0 5px 1px rgba(0, 0, 255, 0.7)';
+                    e.currentTarget.style.boxShadow = '0 0 10px 2px rgba(255, 255, 255, 0.2)';
                   }}
                   
                   
