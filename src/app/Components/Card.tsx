@@ -11,8 +11,10 @@ export default function Card() {
                <div className="hero BigText text-center mt-8" style={{ marginTop : "20px"}}>
                     <h1 className="text">Verify Anon-Aadhar</h1>
                     <h1 className="text2 mt-3" style={{fontSize:"24px"}}>
-                        
-Anon Aadhaar is a cutting-edge zero-knowledge protocol developed by the Ethereum Foundation’s Privacy and Scaling Explorations team. It allows Indian citizens with Aadhaar cards to verify their identity without disclosing any personal information. By using zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge), Anon Aadhaar ensures privacy while proving identity
+
+                       Anon Aadhaar is a zk-SNARK-based protocol enabling Aadhaar holders to prove identity privately.  
+Built by Ethereum Foundation, it ensures verification without revealing personal data.  
+Secure, private, and non-interactive. 
                     </h1>
                 </div>
                

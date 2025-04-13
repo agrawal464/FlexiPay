@@ -21,6 +21,6 @@ contract TransferTokens {
     }
 
     function check() public pure returns (string memory) {
-        return "Shashwat Singh";
+        return "";
     }
 }
